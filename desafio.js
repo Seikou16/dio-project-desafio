@@ -11,7 +11,7 @@ rl.question("Digite o Nome do seu Herói: ", function(nomeDoHeroi) {
     rl.question("Digite os pontos de EXP do Herói: ", function(exp) {
         let pontosDeExperiencia = parseFloat(exp);
         
-        if (pontosDeExperiencia < 1000) {
+        if (pontosDeExperiencia <= 1000) {
             console.log(`O Herói de nome ${nomeDoHeroi} está no nível ${niveis[0]}`);
 
         } else if (pontosDeExperiencia > 1000 && pontosDeExperiencia < 2001) {
