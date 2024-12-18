@@ -3,7 +3,7 @@ pontosDeExperiencia = float(input("Digite a quantidade dos seus pontos de EXP: "
 
 niveis = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante" ]
 
-if pontosDeExperiencia < 1000:
+if pontosDeExperiencia <= 1000:
     print(f"O Herói de nome '{nomeDoHeroi}' está no nível {niveis[0]}.")
 
 elif pontosDeExperiencia > 1000 and pontosDeExperiencia < 2001:
